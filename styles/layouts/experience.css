@@ -1,13 +1,5 @@
-.experience {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 0;
-}
-
 .experience__title {
-  padding-inline: 20px;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 .experience__item:first-child .experience-card {
@@ -23,4 +15,36 @@
 
 .experience__item:not(:last-child) {
   border-bottom: var(--border);
+}
+
+.experience-card__link {
+  color: var(--color-blue);
+}
+
+.experience-card__link:hover {
+  color: var(--color-gray-alt);
+}
+
+@media (max-width: 1024px) {
+  .experience-card {
+    background-color: var(--color-gray-alt-2);
+  }
+
+  .experience-card__description {
+    max-width: 47%;
+  }
+
+  .experience__title {
+    text-align: center;
+    padding-block: 10px;
+    border-block: var(--border);
+  }
+
+  .experience__item:first-child .experience-card {
+    padding-top: 20px;
+  }
+
+  .experience__item {
+    border-bottom: var(--border);
+  }
 }
