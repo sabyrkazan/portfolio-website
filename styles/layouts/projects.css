@@ -1,13 +1,5 @@
-.projects {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 0;
-}
-
 .projects__title {
-  padding-inline: 20px;
-  padding-top: 20px;
+  padding-block: 20px;
 }
 
 .projects__item {
@@ -16,4 +8,19 @@
 
 .projects__item:not(:last-child) {
   border-bottom: var(--border);
+}
+
+@media (max-width: 1024px) {
+  .projects {
+    text-align: center;
+  }
+
+  .projects__title {
+    padding-block: 10px;
+    border-bottom: var(--border);
+  }
+
+  .projects__item {
+    background-color: var(--color-gray-alt-2);
+  }
 }
