@@ -22,6 +22,10 @@
   border-radius: var(--border-radius);
 }
 
+.articles__link {
+  margin-top: auto;
+}
+
 @media (max-width: 1280px) {
   .articles {
     grid-template-columns: repeat(2, 1fr);
