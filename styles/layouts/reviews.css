@@ -1,0 +1,33 @@
+.reviews__title {
+  padding-block: 20px;
+}
+
+.reviews__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.reviews__item {
+  padding: 20px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.review-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: 400;
+}
+
+.review-card__text {
+  color: var(--color-dark);
+}
+
+.review-card__author {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.2;
+  color: var(--color-gray);
+}
