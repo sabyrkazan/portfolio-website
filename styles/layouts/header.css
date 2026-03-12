@@ -24,6 +24,7 @@
 @media (max-width: 480px) {
   .header {
     flex-direction: column;
+    padding-block: 10px;
   }
 
   .header__nav-item:not(:last-child)::after {
