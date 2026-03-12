@@ -1,0 +1,26 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0;
+}
+
+.experience__title {
+  padding-inline: 20px;
+  padding-top: 20px;
+}
+
+.experience__item:first-child .experience-card {
+  padding-top: 0;
+}
+
+.experience-card {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 20px;
+}
+
+.experience__item:not(:last-child) {
+  border-bottom: var(--border);
+}
