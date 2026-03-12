@@ -2,7 +2,7 @@ body {
   font-size: 18px;
   font-weight: 300;
   font-family: 'Chiron GoRound TC', sans-serif;
-  color: var(--color-dark);
+  color: var(--color-gray-alt);
   background-color: var(--color-light);
 }
 
@@ -11,12 +11,17 @@ a, button, input, textarea, svg * {
 }
 
 a {
-  color: inherit;
+  color: var(--color-dark);
+  font-weight: 400;
   text-decoration: none;
 }
 
 a:hover {
   color: var(--color-blue);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-dark);
 }
 
 p {
