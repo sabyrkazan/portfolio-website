@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 10px;
   padding-block: 20px;
 }
 
@@ -18,4 +19,14 @@
 .header__nav-item:not(:last-child)::after {
   content: '/';
   margin-inline: 12px;
+}
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header__nav-item:not(:last-child)::after {
+    margin-inline: 8px;
+  }
 }
