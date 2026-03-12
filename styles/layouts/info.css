@@ -1,4 +1,12 @@
 .info {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.info__item {
+  padding: 20px;
+  border-right: var(--border);
 }
