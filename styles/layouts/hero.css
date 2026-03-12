@@ -3,17 +3,8 @@
   padding-block: 80px;
 }
 
-.hero__title {
-  font-size: 48px;
-  font-weight: 500;
-}
-
 @media (max-width: 480px) {
   .hero {
     padding-block: 0 10px;
-  }
-
-  .hero__title {
-    font-size: 28px;
   }
 }

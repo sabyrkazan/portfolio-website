@@ -22,6 +22,16 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
   color: var(--color-dark);
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 24px;
 }
 
 p {
@@ -30,4 +40,10 @@ p {
 
 p:not([class]):not(:last-child) {
   margin-bottom: 24px;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 28px;
+  }
 }
