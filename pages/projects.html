@@ -12,74 +12,86 @@
     <title>Frontend Developer Portfolio</title>
   </head>
   <body>
-    <header class="site-header">
-      <p class="logo">
-        <a href="/">Sabyrka</a>
+    <header class="header">
+      <p class="header__logo">
+        <a class="header__logo-link" href="/">Sabyrka</a>
       </p>
 
-      <nav class="navigation">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="/">Home</a></li>
-          <li class="nav-item"><a href="./projects.html">Projects</a></li>
-          <li class="nav-item"><a href="./articles.html">Articles</a></li>
-          <li class="nav-item"><a href="./contact.html">Contact</a></li>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./articles.html">Articles</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main-content">
-      <section class="page-intro">
-        <h1 class="page-title">Projects</h1>
-        <p class="page-description">
+    <main class="main">
+
+      <section class="intro">
+        <h1 class="intro__title">Projects</h1>
+        <p class="intro__description">
           Here are some of the projects I have built while learning frontend development.
         </p>
       </section>
 
       <section class="projects">
-        <article class="project-card">
-          <h2 class="project-title">HTML Only Portfolio</h2>
-          <p class="project-description">
+
+        <article class="projects__card">
+          <h2 class="projects__title">HTML Only Portfolio</h2>
+          <p class="projects__description">
             A simple portfolio website built using only semantic HTML.
           </p>
-          <a class="project-link" href="/">View Project</a>
+          <a class="projects__link" href="/">View Project</a>
         </article>
 
-        <article class="project-card">
-          <h2 class="project-title">Calculator</h2>
-          <p class="project-description">
+        <article class="projects__card">
+          <h2 class="projects__title">Calculator</h2>
+          <p class="projects__description">
             A basic calculator that performs arithmetic operations.
           </p>
-          <a class="project-link" href="/">View Project</a>
+          <a class="projects__link" href="/">View Project</a>
         </article>
 
-        <article class="project-card">
-          <h2 class="project-title">Quiz App</h2>
-          <p class="project-description">
+        <article class="projects__card">
+          <h2 class="projects__title">Quiz App</h2>
+          <p class="projects__description">
             A quiz application that allows users to answer multiple choice questions.
           </p>
-          <a class="project-link" href="/">View Project</a>
+          <a class="projects__link" href="/">View Project</a>
         </article>
 
-        <article class="project-card">
-          <h2 class="project-title">Countdown Timer</h2>
-          <p class="project-description">
+        <article class="projects__card">
+          <h2 class="projects__title">Countdown Timer</h2>
+          <p class="projects__description">
             A timer that counts down to a specific date.
           </p>
-          <a class="project-link" href="/">View Project</a>
+          <a class="projects__link" href="/">View Project</a>
         </article>
 
-        <article class="project-card">
-          <h2 class="project-title">Product Upcoming Page</h2>
-          <p class="project-description">
+        <article class="projects__card">
+          <h2 class="projects__title">Product Upcoming Page</h2>
+          <p class="projects__description">
             A landing page for an upcoming product with a countdown timer.
           </p>
-          <a class="project-link" href="/">View Project</a>
+          <a class="projects__link" href="/">View Project</a>
         </article>
+
       </section>
+
     </main>
 
-    <footer class="site-footer">
-      <p class="footer-text">© All rights reserved 2025</p>
+    <footer class="footer">
+      <p class="footer__text">© All rights reserved 2025</p>
     </footer>
   </body>
 </html>
