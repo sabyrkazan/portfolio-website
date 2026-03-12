@@ -14,3 +14,12 @@
 
   --transition-duration: 0.2s;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-light: #121212;
+    --color-dark: #fcfcfc;
+    --color-gray: #666;
+    --color-gray-alt: #bbb;
+  }
+}
