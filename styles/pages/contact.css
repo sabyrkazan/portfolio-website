@@ -1,3 +1,79 @@
 .intro:not(:last-child) {
   margin-bottom: 40px;
 }
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.contact-layout:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.contact {
+  padding: 20px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+.contact:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.contact__title {
+  margin-bottom: 20px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact__field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contact__label {
+  font-size: 14px;
+  color: var(--color-gray-alt);
+}
+
+.contact__input,
+.contact__textarea {
+  padding: 10px 12px;
+  border: var(--border);
+  border-radius: 8px;
+  background: transparent;
+  color: var(--color-dark);
+  transition: border var(--transition-duration);
+}
+
+.contact__input:focus,
+.contact__textarea:focus {
+  outline: none;
+  border-color: var(--color-blue);
+}
+
+.contact__textarea {
+  resize: vertical;
+}
+
+.contact__button {
+  align-self: flex-start;
+  padding: 10px 16px;
+  border: var(--border);
+  border-radius: 8px;
+  background: var(--color-blue);
+  color: white;
+  cursor: pointer;
+  transition: opacity var(--transition-duration);
+}
+
+.contact__button:hover {
+  opacity: 0.8;
+}
