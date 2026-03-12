@@ -77,3 +77,9 @@
 .contact__button:hover {
   opacity: 0.8;
 }
+
+@media (max-width: 1024px) {
+  .contact-layout {
+    grid-template-columns: 1fr;
+  }
+}
