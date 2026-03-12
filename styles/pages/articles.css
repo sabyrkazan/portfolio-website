@@ -1,0 +1,35 @@
+.intro:not(:last-child) {
+  margin-bottom: 40px;
+}
+
+.articles {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.articles__title {
+  border-bottom: none;
+}
+
+.articles__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  border: var(--border);
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 1280px) {
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .articles {
+    grid-template-columns: 1fr;
+  }
+}
