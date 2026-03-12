@@ -5,6 +5,6 @@
   border-radius: var(--border-radius);
 }
 
-.info__item {
+.info__item:not(:last-child) {
   border-right: var(--border);
 }
