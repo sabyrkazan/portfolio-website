@@ -8,3 +8,14 @@
 .info__item:not(:last-child) {
   border-right: var(--border);
 }
+
+@media (max-width: 1024px) {
+  .info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info__item:not(:last-child) {
+    border: none;
+  }
+}
