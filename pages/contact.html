@@ -12,51 +12,59 @@
     <title>Frontend Developer Portfolio</title>
   </head>
   <body>
-    <header class="site-header">
-      <p class="logo">
-        <a href="/">Sabyrka</a>
+    <header class="header">
+      <p class="header__logo">
+        <a class="header__logo-link" href="/">Sabyrka</a>
       </p>
 
-      <nav class="navigation">
-        <ul class="nav-list">
-          <li class="nav-item"><a href="/">Home</a></li>
-          <li class="nav-item"><a href="./projects.html">Projects</a></li>
-          <li class="nav-item"><a href="./articles.html">Articles</a></li>
-          <li class="nav-item"><a href="./contact.html">Contact</a></li>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="/">Home</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./projects.html">Projects</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./articles.html">Articles</a>
+          </li>
+          <li class="header__nav-item">
+            <a class="header__nav-link" href="./contact.html">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
-    <main class="main-content">
+    <main class="main">
 
-      <section class="page-intro">
-        <h1 class="page-title">Contact</h1>
-        <p class="page-description">
+      <section class="intro">
+        <h1 class="intro__title">Contact</h1>
+        <p class="intro__description">
           If you want to work with me or have any questions, feel free to contact me.
         </p>
       </section>
 
-      <section class="contact-form-section">
-        <h2 class="section-title">Send me a message</h2>
+      <section class="contact">
+        <h2 class="contact__title">Send me a message</h2>
 
-        <form class="contact-form">
+        <form class="contact__form">
 
-          <div class="form-group">
-            <label class="form-label" for="name">Name</label>
-            <input class="form-input" type="text" id="name" name="name" required>
+          <div class="contact__field">
+            <label class="contact__label" for="name">Name</label>
+            <input class="contact__input" type="text" id="name" name="name" required>
           </div>
 
-          <div class="form-group">
-            <label class="form-label" for="email">Email</label>
-            <input class="form-input" type="email" id="email" name="email" required>
+          <div class="contact__field">
+            <label class="contact__label" for="email">Email</label>
+            <input class="contact__input" type="email" id="email" name="email" required>
           </div>
 
-          <div class="form-group">
-            <label class="form-label" for="message">Message</label>
-            <textarea class="form-textarea" id="message" name="message" rows="5"></textarea>
+          <div class="contact__field">
+            <label class="contact__label" for="message">Message</label>
+            <textarea class="contact__textarea" id="message" name="message" rows="5"></textarea>
           </div>
 
-          <button class="form-button" type="submit">
+          <button class="contact__button" type="submit">
             Send Message
           </button>
 
@@ -64,20 +72,20 @@
       </section>
 
       <section class="contact-info">
-        <h2 class="section-title">Other ways to reach me</h2>
+        <h2 class="contact-info__title">Other ways to reach me</h2>
 
-        <ul class="contact-list">
-          <li class="contact-item">Email: example@email.com</li>
-          <li class="contact-item">GitHub: github.com/yourname</li>
-          <li class="contact-item">LinkedIn: linkedin.com/in/yourname</li>
+        <ul class="contact-info__list">
+          <li class="contact-info__item">Email: example@email.com</li>
+          <li class="contact-info__item">GitHub: github.com/yourname</li>
+          <li class="contact-info__item">LinkedIn: linkedin.com/in/yourname</li>
         </ul>
 
       </section>
 
     </main>
 
-    <footer class="site-footer">
-      <p class="footer-text">© All rights reserved 2025</p>
+    <footer class="footer">
+      <p class="footer__text">© All rights reserved 2025</p>
     </footer>
   </body>
 </html>
