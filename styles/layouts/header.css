@@ -4,6 +4,9 @@
   align-items: center;
   gap: 10px;
   padding-block: 20px;
+  margin-top: 20px;
+  border: var(--border);
+  border-radius: var(--border-radius);
 }
 
 .header__logo {
