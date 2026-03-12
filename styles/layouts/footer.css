@@ -1,0 +1,11 @@
+.footer {
+  text-align: center;
+  color: var(--color-dark);
+  padding-block: 100px 20px;
+}
+
+@media (max-width: 640px) {
+  .footer {
+    padding-block: 20px;
+  }
+}
