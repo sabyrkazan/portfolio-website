@@ -1,0 +1,9 @@
+.hero {
+  text-align: center;
+  padding-block: 80px;
+}
+
+.hero__title {
+  font-size: 48px;
+  font-weight: 500;
+}
