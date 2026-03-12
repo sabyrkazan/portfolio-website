@@ -10,6 +10,10 @@
   border-bottom: var(--border);
 }
 
+.projects__card {
+  text-align: center;
+}
+
 @media (max-width: 1024px) {
   .projects {
     text-align: center;
