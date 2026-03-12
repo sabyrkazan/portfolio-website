@@ -1,2 +1,7 @@
 @import 'base/index.css';
 @import 'layouts/index.css';
+
+main,
+footer {
+  display: none;
+}
