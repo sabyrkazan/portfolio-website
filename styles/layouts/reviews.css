@@ -6,12 +6,17 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
 }
 
 .reviews__item {
+  max-width: 386px;
+  min-width: 328px;
   padding: 20px;
   border: var(--border);
   border-radius: var(--border-radius);
+  scroll-snap-align: start;
 }
 
 .review-card {
@@ -30,4 +35,10 @@
   flex-direction: column;
   line-height: 1.2;
   color: var(--color-gray);
+}
+
+@media (max-width: 1024px) {
+  .reviews__title {
+    text-align: center;
+  }
 }
