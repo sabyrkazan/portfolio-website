@@ -12,3 +12,13 @@
 .courses__item::before {
   content: '- ';
 }
+
+@media (max-width: 1024px) {
+  .education {
+    gap: 14px;
+  }
+
+  .education__title {
+    text-align: center;
+  }
+}
