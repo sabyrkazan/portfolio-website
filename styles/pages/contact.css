@@ -87,5 +87,6 @@
 @media (max-width: 1024px) {
   .contact-layout {
     grid-template-columns: 1fr;
+    gap: 0;
   }
 }
