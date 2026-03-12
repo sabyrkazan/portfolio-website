@@ -18,6 +18,7 @@
   align-items: center;
   gap: 10px;
   padding: 20px;
+  text-align: center;
   border: var(--border);
   border-radius: var(--border-radius);
 }
