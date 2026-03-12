@@ -9,6 +9,7 @@
 }
 
 .projects__title {
+  padding: 0;
   border-bottom: none;
 }
 
@@ -20,4 +21,8 @@
   padding: 20px;
   border: var(--border);
   border-radius: var(--border-radius);
+}
+
+.projects__link {
+  margin-top: auto;
 }
