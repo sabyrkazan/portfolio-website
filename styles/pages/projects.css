@@ -1,15 +1,14 @@
 .intro:not(:last-child) {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .projects {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
 
 .projects__title {
-  padding: 0;
   border-bottom: none;
 }
 
